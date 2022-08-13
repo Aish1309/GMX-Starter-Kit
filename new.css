@@ -1,0 +1,192 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+  body{
+  margin:0;
+  background-color: #A5C9CA;
+}
+
+.top{
+  margin:0px;
+  background-color: #3BACB6;
+  padding:1px;
+  color: #FCF8E8;
+  text-shadow: 1px 1px 2px #C499BA;
+
+}
+.top2{
+  position: relative;
+  top:20px;
+}
+
+.top2 p{
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+   font-size: 150%;
+   margin-top: 0px;
+   position: relative;
+   bottom:20px;
+   top:30px;
+}
+
+.top2 h1{
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+    font-size: 400%;
+    margin-top: 10px;
+    text-align: center;
+    position:relative;
+    top:60px;
+    left:130px;
+    color:#FCF8E8;
+    transition: 1s ease;
+    display: inline-block;
+  }
+
+
+  .top2 h1:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+  }
+
+.top2 img {
+transition: 1s ease;
+}
+
+.top2 img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow:hidden;
+  position: absolute;
+  bottom: 10px;
+}
+
+li {
+  float: right;
+list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: #FCF8E8;
+ font-size:20px;
+ padding: 10px 20px;
+  text-decoration: none;
+  font-style: bold;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: 17px;
+}
+
+li a:hover {
+  background-color:#2B4865;
+  color: white;
+}
+
+.petal {
+    /*text-align: center;*/
+    position: relative;
+    top:20px;
+}
+
+/*profile ---------------------------------------------------------*/
+
+
+#profile{
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  padding: 80px 0;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+}
+.col-1{
+  flex-basis: 25%;
+}
+.col-2{
+  flex-basis: 60%
+}
+
+.col-2 p{
+  font-size: 115%;
+  color: white;
+}
+
+/*skills----------------------------------------------------------------------------------------------------*/
+
+
+.skill-row{
+  display: flex;
+  margin-bottom: 150px;
+  position: relative;
+  flex-basis: 100%;
+  background-color: white;
+  width:600px;
+  text-align: center;
+  margin-left: 200px;
+}
+.skill-row2{
+  display: flex;
+  margin-bottom: 150px;
+  position: relative;
+  flex-basis: 100%;
+  background-color: white;
+  width:600px;
+  text-align: center;
+  margin-left: 200px;
+}
+.skillcol-1{
+  flex-basis: 20%;
+  position: relative;
+  left:30px;
+
+}
+.skillcol-2{
+  flex-basis: 20%;
+  position: relative;
+  bottom:5px;
+
+  left:50px;
+
+}
+.descripcol-1{
+  flex-basis: 10%;
+  position: relative;
+  top:50px;
+  left:100px;
+}
+.descripcol-2{
+  flex-basis: 10%;
+  position: relative;
+top:50px;
+left:100px;
+}
+.ans-1{
+  flex-basis: 10%;
+  position: relative;
+top:50px;
+left:150px;
+}
+.ans-2{
+  flex-basis: 10%;
+  position: relative;
+  top:50px;
+  left:150px;
+}
